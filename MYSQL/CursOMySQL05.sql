@@ -1,11 +1,11 @@
+/* USANDO O COMANDO INSERT INTO PARA INSERIR DADOS NA TECELA PESSOAS */
+
 use cadastro;
 
 insert into pessoas
 (nome, nascimento, sexo, peso, altura, nacionalidade)
 values
 ('Godofredo', '1984-01-02', 'M', '78.5', '1.83', 'Brasil');
-
-select * from pessoas; /* MOTRAR NA TELA TABELA PESSOAS */
 
 insert into pessoas
 (nome, nascimento, sexo, peso, altura, nacionalidade)
@@ -16,6 +16,8 @@ insert into pessoas
 (id, nome, nascimento, sexo, peso, altura, nacionalidade)
 values
 (DEFAULT, 'Crueza', '1920-12-30', 'F', '50.2', '1.65', DEFAULT);
+
+select * from pessoas; /* MOSTRAR NA TELA TABELA PESSOAS */
 
 /* USANDO INSERT INTO QUANDO OS VALORES ESTÃO NA ORDEM CORRETA */
 insert into pessoas values
