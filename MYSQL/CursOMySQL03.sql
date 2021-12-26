@@ -1,6 +1,8 @@
-create database cadastro;
+/* CRIANDO UM BD SIMPLES COM UMA TABELA */
 
-create table pessoas(
+create database cadastro; /* CRIANDO BD CHAMADO CADASTRO */
+
+create table pessoas( /* CRIANDO TABELA CHAMADA PESSOAS */
 nome varchar(30),
 idade tinyint,
 sexo char(1),
@@ -9,5 +11,5 @@ altura float,
 nacionalidade varchar(20)
 );
 
-describe pessoas;
+describe pessoas; /* APRESENTANDO NA TELA A TABELA PESSOAS */
 
